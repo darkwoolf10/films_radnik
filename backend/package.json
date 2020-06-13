@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for telegram group management app",
+  "author": "darkwoolf <woolftreuser@gmail.com>",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darkwoolf10/films_radnik.git"
+  },
+  "scripts": {
+    "start": "./bin/app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
+    "pino": "^6.3.2",
+    "pino-http": "^5.2.0",
+    "pino-pretty": "^4.0.0"
+  }
+}
